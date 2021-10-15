@@ -11,12 +11,22 @@ img:hover {
   transform: scaleX(-1)
 }
 img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 220px
 }
 .old {
-font-family: cursive
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .teeth {
   font-family: fantasy;
   font-size: 14px;
+  background-color: rgb(236, 122, 46)
+}
+.container-image {
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    
 }
